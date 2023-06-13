@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.add-button {
+  color: white;
+  background-color: green;
+  padding: 5px;
+  margin: 30px;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 0% auto;
+  margin-bottom: 10px;
+}
+
+.heading-container {
+  width: 100%;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  word-wrap: break-word;
+  font-size: 1rem;
+  padding-right: 10px;
+  margin-left: 30px;
+}
+
+.name-heading,
+.phone-heading {
+  font-weight: 600;
+  color: #808080;
+  text-transform: uppercase;
+}
