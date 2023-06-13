@@ -17,8 +17,8 @@ function App() {
   return (
     <div>
       <Header />
-      <div>
-        <button className="add-button">Add</button>
+      <div className="component-body-container">
+        <button className="custom-btn add-button">Add</button>
         <div className="grid-container heading-container">
           <span className="grid-item name-heading">Name</span>
           <br />
@@ -31,6 +31,9 @@ function App() {
               <span className="grid-item">{sub.name}</span>
               <br />
               <span className="grid-item">{sub.phone}</span>
+              <span className="grid-item action-btn-container">
+                <button className="custom-btn delete-button">Delete</button>
+              </span>
             </div>
           );
         })}
