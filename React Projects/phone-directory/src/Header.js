@@ -2,8 +2,8 @@ import React from "react";
 import "./Header.css";
 
 //External CSS Styling
-const Header = function () {
-  return <div className="header">Phone Directory</div>;
+const Header = function (props) {
+  return <div className="header">{props.heading}</div>;
 };
 
 //Inline CSS Styling
