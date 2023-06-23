@@ -1,6 +1,9 @@
 import Header from "./Header";
 import "./App.css";
 
+function deleteHandler(message) {
+  alert(message);
+}
 function App() {
   let subscribers = [
     {
@@ -32,7 +35,12 @@ function App() {
               <br />
               <span className="grid-item">{sub.phone}</span>
               <span className="grid-item action-btn-container">
-                <button className="custom-btn delete-button">Delete</button>
+                <button
+                  className="custom-btn delete-button"
+                  onClick={deleteHandler.bind(this, "Delete World")}
+                >
+                  Delete
+                </button>
               </span>
             </div>
           );
