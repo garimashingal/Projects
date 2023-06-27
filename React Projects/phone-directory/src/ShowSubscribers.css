@@ -1,0 +1,30 @@
+.delete-button {
+  background-color: palevioletred;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 0% 20% auto;
+  margin-bottom: 10px;
+}
+
+.heading-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  word-wrap: break-word;
+  font-size: 1rem;
+  padding-right: 10px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+
+.name-heading,
+.phone-heading {
+  font-weight: 600;
+  color: #808080;
+  text-transform: uppercase;
+}
