@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import PhoneDirectory from "./PhoneDirectory";
 
 function Wrapprer() {
