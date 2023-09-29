@@ -10,7 +10,7 @@ function ExpensesFilter(props) {
     <div className="expenses-filter">
       <div className="expenses-filter__control">
         <label>Filter By Year</label>
-        <select onChange={filterChangeHandler}>
+        <select defaultValue="2020" onChange={filterChangeHandler}>
           <option>2023</option>
           <option>2022</option>
           <option>2021</option>
