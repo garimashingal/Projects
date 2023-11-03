@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shine Learning Academy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+	<link rel="icon" type="image/x-icon" href="/images/Logo.png">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top" id="main-header">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="images/Logo.png" id="logo-image"
+          /></a>
+          <div id="nav-heading">Shine Learning Academy</div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><i class="fa-solid fa-bars-staggered"></i
+            ></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav" id="nav-list">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home-tile"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses-row">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./FunWithCode.html">Fun with Code</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./CodingBenefits.html">Coding Benefits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer-contact">Contact</a>
+              </li>
+              <!-- <li class="nav-item" id="cart">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container" id="main-content">
+      <div class="row" id="home-row">
+        <div class="col-4" id="home-tile-text">
+          <div>Live Online Class</div>
+        </div>
+        <div class="col-8" id="home-tile-image">
+          <div>
+            <img class="image-fluid home-image" src="images/home_image.png" />
+          </div>
+        </div>			
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="row" id="courses-row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card text-center">
+            <img
+              src="images/Scratch.png"
+              class="card-img-top card-image"
+              alt="Scratch"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Scratch</h5>
+              <p class="card-text">
+                Scratch learning program is designed for kids 7 years and above
+                focusing on problem solving skills and logical thinking craeting
+                animations and games.
+              </p>
+              <button
+                class="course-button"
+                data-bs-toggle="modal"
+                data-bs-target="#Modal"
+              >
+                Book Demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card text-center">
+            <img
+              src="images/python.png"
+              class="card-img-top card-image"
+              alt="Python"
+            />
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">
+              Python is a widely used language in todays world. Our course is designed for kids 10 years and
+              above.
+            </p>
+            <button
+              class="course-button"
+              data-bs-toggle="modal"
+              data-bs-target="#Modal"
+            >
+              Book Demo
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card text-center">
+          <img
+            src="images/java.jpg"
+            class="card-img-top card-image"
+            alt="Java"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Java</h5>
+            <p class="card-text">
+				Java is a multi-platform programming language used for many professional and commercial applications.
+            </p>
+            <button
+              class="course-button"
+              data-bs-toggle="modal"
+              data-bs-target="#Modal"
+            >
+              Book Demo
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card text-center">
+          <img
+            src="images/htmllogo.jpg"
+            class="card-img-top card-image"
+            alt="html"
+          />
+          <div class="card-body">
+            <h5 class="card-title">HTML</h5>
+            <p class="card-text">
+              HTML is a markup language used to design and create web pages. It
+              is fun and easy to learn. 
+            </p>
+            <button
+              class="course-button"
+              data-bs-toggle="modal"
+              data-bs-target="#Modal"
+            >
+              Book Demo
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card text-center">
+          <img
+            src="images/javascript.png"
+            class="card-img-top card-image"
+            alt="javascript"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Javascript</h5>
+            <p class="card-text">
+				JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
+            </p>
+            <button
+              class="course-button"
+              data-bs-toggle="modal"
+              data-bs-target="#Modal"
+            >
+              Book Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<section class="row" id="courses-row">
+			<div class="col-2 course-tile">
+				<img src="images/33_edited.png" class="course-image">
+			</div>
+			<div class="col-10 course-detail">
+				<p>Description 1</p>
+				<button class="course-button" data-bs-toggle="modal" data-bs-target="#Modal">Add to Cart</button>
+			</div>	
+			<hr>
+
+			<div class="col-2 course-tile">
+				<img src="images/33_edited.png" class="course-image">
+			</div>
+			<div class="col-10 course-detail">
+				<p>Description 1</p>
+				<button class="course-button">Add to Cart</button>
+			</div>
+			<hr>
+
+			<div class="col-2 course-tile">
+				<img src="images/33_edited.png" class="course-image">
+			</div>
+			<div class="col-10 course-detail">
+				<p>Description 1</p>
+				<button class="course-button">Add to Cart</button>
+			</div>
+			<hr>
+		</section>-->
+
+    <div
+      class="modal fade"
+      id="Modal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalLabel">Book your Demo Class</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="row">
+              <div class="col-md-6">
+                <label for="name" class="col-form-label"
+                  ><b>Student Name</b></label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Student name"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label for="email" class="col-form-label"
+                  ><b>Email-Id</b></label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Email"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label for="contact" class="col-form-label"
+                  ><b>Mobile</b></label
+                >
+                <input
+                  type="tel"
+                  class="form-control country-code"
+                  placeholder="Enter Contact"
+                  id="contact"
+                  name="contact"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label for="course" class="col-form-label"><b>Course</b></label>
+                <select id="dropdown" class="form-control" name="course">
+                  <option value="scratch">Scratch</option>
+                  <option value="html">HTML/CSS</option>
+                  <option value="python">Python</option>
+                  <option value="java">Java</option>
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label for="date" class="col-form-label"><b>Date</b></label>
+                <input
+                  type="date"
+                  class="form-control"
+                  placeholder="Select Date"
+                  id="date"
+                  name="date"
+                  min="2023-05-15"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <label for="time" class="col-form-label"
+                  ><b>Select Time</b></label
+                >
+                <select id="dropdown" class="form-control" name="time">
+                  <option value="10:00-10:45am">10:00-10:45am</option>
+                  <option value="11:00-11:45am">11:00-11:45am</option>
+                  <option value="12:00-12:45am">12:00-12:45pm</option>
+                </select>
+              </div>
+            </form>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section class="col-sm-3 col-lg-4" id="footer-menu">
+			<h5>Menu</h5>
+            <a href="./index.html">Home</a><br />
+			<a href="">Abacus</a></br>
+            <a href="./FunWithCode.html">Fun with code</a><br />
+            <a href="./CodingBenefits.html">Coding Benefits</a><br />
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal">Book Demo</a><br />
+            <hr class="d-block d-sm-none mx-auto" />
+          </section>
+
+          <section class="col-sm-3 col-lg-4" id="footer-testimonial">
+			<h5>Testimonials</h3>
+            <span>"The best online platform for learning coding..."</span><br/>
+            <span>"Amazing Service! I will be back again and again!!"</span><br/>
+            <span>"Amazing Service! I will be back again and again!!"</span><br/>
+			<span>"Amazing Service! I will be back again and again!!"</span><br/>
+            <hr class="d-block d-sm-none mx-auto" />
+          </section>
+
+          <section class="col-sm-3 col-lg-4" id="footer-contact">
+			<h5>Contact</h5>
+            <span>+1 289 885 3643</span><br/>
+            <span>Email: academy.shinelearning@gmail.com</span><br/>
+            <a href="https://www.shinelearningacademy.org.in/" target="_blank">
+              www.shinelearningacademy.org.in
+            </a>
+          </section>
+        </div>
+        <div class="text-center">
+          &copy; Copyright Shine Learning Academy 2023
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

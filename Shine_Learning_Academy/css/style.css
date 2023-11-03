@@ -1,0 +1,262 @@
+::root {
+  --primary-pink: #d9375b;
+  --primary-gold: #e59842;
+  --primary-green: #0e7380;
+  --bg-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo-image {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-toggler-icon i {
+  color: #d9375b;
+}
+#nav-heading {
+  text-transform: uppercase;
+  color: #d9375b;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Lora";
+  margin-left: -20px;
+}
+
+.nav-item {
+  margin: 0 5px;
+}
+
+.nav-item:hover {
+  background: #d9375b;
+  border-radius: 8px;
+}
+.nav-link {
+  color: #d9375b;
+  font-size: 1.1rem;
+  font-family: "Lora";
+}
+
+.nav-link:hover {
+  color: white;
+}
+.active {
+  background: #d9375b;
+  border-radius: 8px;
+  color: white;
+}
+
+#main-content {
+  padding-top: 150px;
+}
+
+#home-row {
+  height: 250px;
+  width: 100%;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#home-tile-text {
+  color: black;
+  background: #d9375b;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: "Oxygen";
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+#home-tile-image {
+  height: 250px;
+  /* width: 25em; */
+  padding: 0;
+}
+
+.home-image {
+  max-height: 250px;
+  height: 250px;
+  width: 50rem;
+  max-width: 100%;
+  /* position: fixed; */
+}
+/*
+#courses-row{
+	margin-top: 50px;
+
+}
+
+.course-image{
+	height: 130px;
+	width: 130px;
+	border: 5px solid #d9375b;
+	padding: 2px;
+	margin: 35px 0;
+	background: #FEE6AA;
+	box-shadow: 0 0 20px #3F0C1F;
+}
+
+.course-tile{
+	justify-content: center;
+	text-align: center;
+
+}
+
+.course-detail{
+	margin: 35px 0;
+	padding-left: 150px;
+}
+*/
+.courses-row {
+}
+.card {
+  width: 20rem;
+  height: 25rem;
+  background-color: antiquewhite;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px #3f0c1f;
+}
+
+.card-image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10px;
+  border: 5px solid #d9375b;
+  background-color: antiquewhite;
+}
+
+.card-image:hover {
+  box-shadow: 0 0 20px #3f0c1f;
+  /* transform: scale(1.25, 1.25); */
+}
+
+hr {
+  text-align: center;
+  width: 60%;
+}
+
+.panel-footer {
+  background: #d9375b;
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Lora";
+  text-align: center;
+  margin-left: -10px;
+}
+.panel-footer .container section {
+  padding: 30px;
+  margin: 0;
+}
+
+#footer-menu a {
+  color: white;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
+}
+
+#footer-menu a:hover {
+  color: #0e7380;
+}
+
+#footer-contact a {
+  color: white;
+}
+#footer-contact a:hover {
+  color: #0e7380;
+}
+
+footer-testimonial p {
+  margin: 0;
+  padding: 0;
+}
+/* Button used to open the contact form - fixed at the bottom of the page */
+.course-button {
+  background-color: #d9375b;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+.course-button:hover {
+  opacity: 1;
+}
+
+/* Full-width input fields */
+.modal-body input[type="text"],
+.modal-body input[type="email"],
+.modal-body input[type="date"],
+.modal-body input[type="tel"],
+#dropdown {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.modal-body input[type="text"]:focus,
+.modal-body input[type="email"]:focus,
+.modal-body input[type="date"]:focus,
+.modal-body input[type="tel"]:focus,
+#dropdown {
+  background-color: #ddd;
+  outline: none;
+}
+
+/*Set a style for the submit/login button*/
+.modal-footer .btn {
+  background-color: #d9375b;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+/* Add a red background color to the cancel button 
+.form-container .cancel {
+  background-color: red;
+}*/
+
+/*Add some hover effects to buttons*/
+.modal-footer .btn:hover {
+  opacity: 1;
+}
+
+.heading {
+  color: #d9375b;
+}
+
+.sub-heading {
+  color: #d9375b;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.cover-image {
+  margin-top: 150px;
+  margin-bottom: -100px;
+  height: 50vh;
+  width: 170vh;
+  max-width: 100%;
+}
